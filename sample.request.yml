@@ -1,0 +1,14 @@
+- name: mypage
+  desc: マイページAPI
+  uri: /mypage
+  method: get
+  query:
+    - key: userId
+      value: 1
+  body:
+    - json: characterId
+      type: number
+      value: 1
+    - json: itemId
+      type: number
+      value: 2

@@ -1,0 +1,14 @@
+# Mac
+.DS_Store
+
+.env
+
+response.json
+response-struct.json
+generatedGoStruct
+
+request.json
+request.yml
+
+/responseBody
+responseBody.json
